@@ -1,0 +1,44 @@
+.hero-section {
+    position: relative;
+    background: url('https://images.pexels.com/photos/3980364/pexels-photo-3980364.jpeg') center/cover no-repeat;
+    color: white;
+    padding: 100px 0; /* Adjust this value according to the size of the navbar */
+    min-height: calc(100vh - 57px); /* Adjust this value according to the size of the navbar */
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.70);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title {
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: rgba(0, 0, 0, 0.40);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.btn-primary:hover {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
